@@ -1,6 +1,8 @@
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
+<style>
+  .header{
+    color:red;
+  }
+</style>
 <h1 class='header'>
   This is a test profile
 </h1>
