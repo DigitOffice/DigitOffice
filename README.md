@@ -1,4 +1,7 @@
-<h1>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<h1 >
   This is a test profile
 </h1>
 
