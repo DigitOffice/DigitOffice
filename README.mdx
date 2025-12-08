@@ -38,6 +38,80 @@
 
 </p>
 
+
+
+## 🔐 Enterprise Security Architecture
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔑 Authentication & Identity  
+<p align="left">
+  <img src="https://img.shields.io/badge/OIDC-OpenID%20Connect-1F2937?style=for-the-badge&logo=openid&logoColor=white" />
+  <img src="https://img.shields.io/badge/Auth0-Identity%20Platform-EB5424?style=for-the-badge&logo=auth0&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT-Token%20Security-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+</p>
+
+- Enterprise OIDC (Authorization Code + PKCE)  
+- Token lifecycle hardening  
+- Multi-provider identity: Auth0 / Credentials  
+- Session rotation & refresh token security  
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡 Authorization Models  
+<p align="left">
+  <img src="https://img.shields.io/badge/RBAC-Role%20Based-0F172A?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/ABAC-Attribute%20Based-4F46E5?style=for-the-badge" />
+</p>
+
+- Hierarchical RBAC (roles → permissions → scopes)  
+- Attribute rules (ABAC) for dynamic access  
+- Centralized permission registry  
+- Audit trails for privileged actions  
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🔐 API Boundary & Zero-Trust  
+<p align="left">
+  <img src="https://img.shields.io/badge/API%20Security-Zero%20Trust-1E40AF?style=for-the-badge&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/Internal%20APIs-Private%20Network-047857?style=for-the-badge&logo=fastify&logoColor=white" />
+</p>
+
+- Internal-only APIs (private network boundary)  
+- Service tokens / API keys / allowlisted IPs  
+- Request validation pipeline (Zod + server guards)  
+- Clear trust boundaries across services  
+
+</td>
+<td width="50%" valign="top">
+
+### 🧱 Architecture Principles  
+<p align="left">
+  <img src="https://img.shields.io/badge/Defense-in-Depth-475569?style=for-the-badge&logo=fortinet&logoColor=white" />
+  <img src="https://img.shields.io/badge/Server%20Components-Secure-0EA5E9?style=for-the-badge&logo=next.js&logoColor=white" />
+</p>
+
+- Defense-in-depth (Auth → Middleware → Validation → Logging)  
+- Server Components for privileged data flow  
+- Least-privilege access at every layer  
+- Secure SSR for sensitive content  
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🎯 Security Objective  
+**Deliver systems engineered to stay secure under real-world production pressure — not just development environments.**
+
 ---
 
 ## 🌐 Socials
