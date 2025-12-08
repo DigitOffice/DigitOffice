@@ -1,0 +1,35 @@
+<svg width="100%" height="200" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bgGradient)" rx="24" />
+
+  <rect x="60" y="190" width="1080" height="3" fill="url(#accentGradient)" rx="4" />
+
+  <text x="80" y="110" fill="#e5e7eb" font-size="40" font-weight="700" font-family="sans-serif">
+    Omid Soleimani
+  </text>
+
+  <text x="80" y="150" fill="#9ca3af" font-size="20" font-family="sans-serif">
+    Senior Fullstack Developer · Next.js · TypeScript · MongoDB
+  </text>
+
+  <text x="750" y="110" fill="#e5e7eb" font-size="18" font-family="sans-serif">
+    🔒 Security · OIDC · Auth0 · Protected APIs
+  </text>
+
+  <text x="780" y="150" fill="#a5b4fc" font-size="16" font-family="sans-serif">
+    Modular · Clean Architecture · DX-focused
+  </text>
+</svg>
